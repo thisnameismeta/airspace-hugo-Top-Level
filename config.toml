@@ -1,4 +1,4 @@
-baseURL = "http://demo.themefisher.com/airspace-hugo/"
+baseURL = "https://silly-babbage-a5789e.netlify.app"
 disableLanguages = ["fr"]
 disqusShortname = ""
 paginate = "4"
