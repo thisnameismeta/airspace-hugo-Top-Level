@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: exampleSite/content/english/blog
+  path: content/english/blog
   label: Post (en)
   create: documents
   match: "**/*"
@@ -16,7 +16,7 @@ sections:
 - type: heading
   label: Author
 - type: directory
-  path: exampleSite/content/english/author
+  path: content/english/author
   label: Author (en)
   create: documents
   match: "**/*"
@@ -25,7 +25,7 @@ sections:
 - type: heading
   label: Project
 - type: directory
-  path: exampleSite/content/english/project
+  path: content/english/project
   label: Project (en)
   create: documents
   match: "**/*"
@@ -34,39 +34,39 @@ sections:
 - type: heading
   label: Others Pages
 - type: directory
-  path: exampleSite/content/english/about
+  path: content/english/about
   label: About (en)
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/service
+  path: content/english/service
   label: Service (en)
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/pricing
+  path: content/english/pricing
   label: Pricing (en)
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/faq
+  path: content/english/faq
   label: FAQ (en)
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/contact
+  path: content/english/contact
   label: Contact (en)
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/pages
+  path: content/english/pages
   label: Created Pages (en)
   create: documents
   match: "**/*"
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/english
+  path: content/english
   label: All Pages (en)
   create: all
   match: "**/*"
@@ -75,19 +75,19 @@ sections:
 - type: heading
   label: Data
 - type: directory
-  path: exampleSite/data/en
+  path: data/en
   label: Data (en)
   create: all
   match: "**/*"
 - type: directory
-  path: exampleSite/i18n
+  path: i18n
   label: i18n
   create: documents
   match: "**/*"
 - type: heading
   label: Configuration
 - type: directory
-  path: exampleSite
+  path: ''
   label: Configuration
   create: all
   match: "*.toml"
