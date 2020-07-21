@@ -34,3 +34,4 @@ fields:
   default: post
 pages:
 - exampleSite/content/english/blog/i-am-a-test-post.md
+- exampleSite/content/english/blog/i-am-test-post-2-now-with-previews.md
